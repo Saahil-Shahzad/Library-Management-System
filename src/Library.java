@@ -573,6 +573,12 @@ public class Library {
 
         } catch (EOFException e) {      // Catching Exceptions
 
+            if (!books.isEmpty()) {
+
+                // To Ensure that the next added book has an id greater than the last read book
+                Book.autoBookId = books.getLast().bookId;
+            }
+            
             System.out.println("BOOKS DATA READ FROM FILE.\n");
         } catch (IOException e) {
 
@@ -639,6 +645,12 @@ public class Library {
 
         } catch (EOFException e) {      // Catching Exceptions
 
+            if (!users.isEmpty()) {
+
+                // To Ensure that the next added user has an id greater than the last read user
+                User.autoUserId = users.getLast().userId;
+            }
+            
             System.out.println("USERS DATA READ FROM FILE.\n");
         } catch (IOException e) {
 
