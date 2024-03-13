@@ -1,0 +1,36 @@
+// ArrayList is a class
+// make its instance object to use it
+//
+// Syntax: ArrayList<datatype> name = new ArrayList<>();
+//      Some of its useful methods: add(element)  // adds an element to the end
+//                                  get(index)  // reads the element
+//                                  set(index, newElement)  // modifies an element
+//                                  remove(index)  // removes an element
+//                                  clear()  // removes everything
+//                                  size()  // shows its no. of elements
+//
+// Elements are positioned from 0 to n
+//
+// >>> Example: Looping through it
+//
+//  public class Main {
+//       public static void main(String[] args) {
+//          ArrayList<String> cars = new ArrayList<String>();
+//          cars.add("Volvo");
+//          cars.add("BMW");
+//          cars.add("Ford");
+//          cars.add("Mazda");
+//          for (int i = 0; i < cars.size(); i++) {      /  for (String i : cars) {
+//          System.out.println(cars.get(i));            /       System.out.println(i);
+//          }                                          /    {
+//       }
+//      }
+//
+// To use ArrayList:
+//                  import java.util.ArrayList;
+//
+// To sort an ArrayList:
+//                      import java.util.Collections;
+//
+//                      sort()  // Static Method to sort an ArrayList numerically or alphabetically
+// Syntax: Collections.sort(arrayListName);
