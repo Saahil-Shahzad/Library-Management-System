@@ -481,23 +481,33 @@ public class Library {
 
     public void displayAllBooks() {
 
-        // Using enhanced for-loop to display all the books
-        for (Book i : books) {
+        if (!books.isEmpty()) {
 
-            // Invoking the book displaying method
-            displayBook(i);
+            // Using enhanced for-loop to display all the books
+            for (Book i : books) {
+
+                // Invoking the book displaying method
+                displayBook(i);
+            }
+        } else {
+            System.out.println("THERE ARE NO BOOKS.\n");
         }
     }
 
     public void displayAllUsers() {
 
-        // Using enhanced for-loop to display all the users
-        for (User i : users) {
+        if (!users.isEmpty()) {
 
-            System.out.printf("User ID: %d\n", i.userId);
-            System.out.printf("User NAME: %s\n", i.name);
-            System.out.printf("User CONTACT INFORMATION: %s\n", i.contactInformation);
-            System.out.println();   // Adding Space
+            // Using enhanced for-loop to display all the users
+            for (User i : users) {
+
+                System.out.printf("User ID: %d\n", i.userId);
+                System.out.printf("User NAME: %s\n", i.name);
+                System.out.printf("User CONTACT INFORMATION: %s\n", i.contactInformation);
+                System.out.println();   // Adding Space
+            }
+        } else {
+            System.out.println("THERE ARE NO USERS.\n");
         }
     }
 
