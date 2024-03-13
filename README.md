@@ -52,4 +52,5 @@ The system includes two exception classes for handling empty fields and invalid 
 
 EmptyFieldException: This exception is thrown when a required field is left empty. It is used in the Book and User classes to ensure that all required fields are filled in when creating new objects.
 InvalidInputException: This exception is thrown when an invalid input is provided by the user. It is used in the Library class to ensure that the user inputs a valid choice from the menu.
-Note: The system uses the Serializable interface to save and load the data from files. Make sure that the files are in the same directory.
+
+### Note: The system uses the Serializable interface to save and load the data from files. Make sure that the files are in the same directory.
