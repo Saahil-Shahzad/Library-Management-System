@@ -9,8 +9,9 @@ This is a simple Java-based Library Management System that allows users to manag
 3. [Prerequisites and Softwares Required](#prerequisites-and-softwares-required)
 4. [Key Features and Functionalities](#key-features-and-functionalities)
 5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
+6. [Future Plans](#future-plans)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Description
 
@@ -48,7 +49,18 @@ The system uses a command-line interface (CLI) to interact with the user. It sto
 2. Follow the prompts to perform the desired operation.
 3. Repeat steps 2 and 3 for additional operations.
 
-### Note: The system uses the Serializable interface to save and load the data from files. Make sure that the files are in the same directory.
+### Note:
+The system uses the Serializable interface to save and load the data from files. Make sure that the files are in the same directory.
+
+## Future Plans
+
+As the sole developer behind this Library Management System project, I've been contemplating its future trajectory and have outlined a couple of exciting enhancements on the horizon.
+
+### Integration of a GUI
+Primarily, I intend to implement a Graphical User Interface (GUI) to augment the system's user experience. While functionality remains paramount, the addition of a visually intuitive interface promises to streamline user interactions and elevate the overall usability of the system.
+
+### Database Integration
+Furthermore, I plan to incorporate database functionality into the project. Despite the initial apprehension that databases might evoke, their utilization will significantly enhance data management capabilities. By facilitating structured storage and retrieval of library-related information, we can anticipate improvements in search efficiency and operational fluidity.
 
 ## Contributing
 
