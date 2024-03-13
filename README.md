@@ -21,7 +21,7 @@ The system uses a command-line interface (CLI) to interact with the user. It sto
 ## Setting Up and Running the Project Locally
 
 1. Clone the repository to your local machine using the following command:
-   git clone https://github.com/username/library-management-system.git
+   git clone https://github.com/Saahil-Shahzad/Library-Management-System.git
 
 2. Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
 3. Run the `LibraryManagementSystem` class to start the application.
